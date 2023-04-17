@@ -21,8 +21,11 @@ In our cake example, cake is the component. Different types of cakes are the con
 
 # 2. Code description
 The Cake project is a program that calculates the price of different cakes with decorations.
+
 To add decorations to a cake, we create a `Cake` abstract class and its subclasses with two methods: `getDescription()` and `getPrice()`.
+
 We then extend a `Decorator` class from the Cake class, which represents decoration items for a cake with a description and price. 
+
 There are three types of decorators: chocolate, fruits, and nuts. Each type has several sub-types.
 -	chocolate: DarkChocolate, MilkyChocolate, WhiteChocolate
 -	fruits: Banana, Blueberry, Cherry, Strawberry
@@ -51,5 +54,6 @@ The output will be
 ```
 Chiffon Cake, Dark Chocolate, Cherry, Almond $ 9.56
 ```
-
+# Reference
+Freeman, Eric, 1965- author.; Robson, Elisabeth, author. Sebastopol, California : O'Reilly 2021
 
