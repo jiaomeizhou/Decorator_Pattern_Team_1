@@ -14,7 +14,9 @@ d. Concrete Decorator: These are the classes that extend the Decorator (Abstract
 Concrete Decorators can extend the state of the component. 
 Concrete decorates can add new methods; however, new behavior is typically added by doing computation before or after an existing method in the component. 
 Concrete decorators can be combined and chained together to apply multiple modifications to the base component.
+
 ![diagram](res/diagram.jpg) 
+
 In our cake example, cake is the component. Different types of cakes are the concrete components. Chocolate, fruits and nut are the decorators and their subclasses are the concrete decorators. Using decorator pattern facilitates the extension of different kinds of cakes.
 
 # 2. Code description
@@ -27,9 +29,11 @@ There are three types of decorators: chocolate, fruits, and nuts. Each type has 
 -	nuts: Pecan, Cashew, Walnut, Pistachio, Almond
 
 In `CakeDemo` class, we demonstrate how to add decorator items to a cake and calculate the final price.
-### UML diagram of classes
+## UML diagram of classes
+
 ![diagram](res/diagram2.png)
-### Usage
+
+## Usage
 To use the Cake project, follow these steps:
 - Create an object of the desired cake.
 - Add decorator items to the cake by calling the classes of Decorator and passing the cake object as a parameter.
